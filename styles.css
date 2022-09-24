@@ -1,14 +1,21 @@
 body {
     background-color: bisque;
     margin: 0;
-    font: black
+    color: black;
 }
 header {
     font-size: 20px;
-    font: navy 
+    font: navy;
+    text-align: left;
+    margin: auto;
+    padding: 15px; 
 }
-
+h1 {
+    font-size: 18px;
+    text-decoration: wavy;
+}
 p {
     background-color: pink;
     padding: 20px;
+    font-size: 15px;
 }
