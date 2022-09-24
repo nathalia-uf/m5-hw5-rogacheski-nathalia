@@ -6,9 +6,11 @@ body {
 header {
     font-size: 20px;
     font: navy;
-    text-align: left;
     margin: auto;
     padding: 15px; 
+}
+section.navigation {
+    text-align: left
 }
 h1 {
     font-size: 18px;
