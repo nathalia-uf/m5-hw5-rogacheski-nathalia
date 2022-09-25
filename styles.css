@@ -1,13 +1,14 @@
 body {
+    background-image: url("images/watercolor.png");
     background-color: bisque;
+    background-image: center;
     margin: 0px;
     max-width: 800px;
     margin: auto;
     color: black;
 }
 header {
-    margin: wrap;
-    background: rgb(244, 209, 233);
+    background-color: rgb(244, 209, 233);
     color: navy;
     font-size: 30px;
     padding: 20px; 
@@ -16,12 +17,6 @@ header {
 header > nav {
     float: right;
     font-size: 20px;
-}
-main {
-    margin-top,bottom: 15px;
-    padding: auto;
-    background-image: url(//source.unsplash.com/1280x720/?white?5);
-    background-position: center;
 }
 main > section {
     background-color: rgb(255, 255, 255);
