@@ -30,8 +30,22 @@ p {
 img {
     float: left;
 }
+section {
+    float: left;
+    max-width: 600px;
+}
+main > aside {
+    background-color: pink;
+    padding: 5px;
+    float: right;
+    text-align: center;
+}
 main::after{
     content: "";
     clear: both;
     display: block;
+}
+footer {
+    text-align: center;
+    margin: 40px 0 20px;
 }
