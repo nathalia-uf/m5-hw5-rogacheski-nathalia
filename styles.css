@@ -1,23 +1,27 @@
 body {
     background-color: bisque;
-    margin: 0;
+    margin: auto;
     color: black;
 }
 header {
-    font-size: 25px;
+    font-size: 20px;
     font: navy;
     margin: auto;
     padding: 15px; 
 }
-section.navigation {
-    text-align: right;
+header > nav {
+    float: right;
 }
+
 h1 {
-    font-size: 20px;
+    font-size: 25px;
     text-decoration: wavy;
 }
 p {
     background-color: pink;
-    padding: 20px;
-    font-size: 15px;
+    padding: 10px;
+    font-size: 20px;
+}
+img {
+    float: left;
 }
